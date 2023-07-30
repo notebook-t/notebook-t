@@ -8,7 +8,7 @@
   
  ## Marked 
   
- Copyright (c) 2023+, MarkedJS (https://github.com/markedjs/) 
+ Copyright (c) 2023+, MarkedJS (https://github.com/markdown) 
  Copyright (c) 2018-2023, Carlos Ibarra (https://github.com/notebook-t) 
   
  Permission is hereby granted, free of charge, to any person obtaining a copy 
