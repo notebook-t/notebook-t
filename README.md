@@ -1,0 +1,4 @@
+![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
+El archivo [`readme.md`](https://www.notion.so/Readme-md-f23cfb4f045240efa6d5f6520cad2703) es generalmente utilizado en los proyectos de software para proporcionar información relevante sobre el proyecto. 
+Contiene información sobre cómo instalar, configurar y utilizar el software, así como cualquier otro detalle importante que los usuarios o desarrolladores deben conocer. 
+Además, el archivo [`readme.md`](https://www.notion.so/532cff6da872437d9dbc5eead07ad58e?v=050c101b0b104d4e85a05ed36cfa46f7) puede incluir información sobre el propósito del proyecto, los requisitos del sistema, las dependencias, los pasos de instalación, la estructura de archivos y directorios, y cualquier otra información relevante que los desarrolladores o usuarios necesiten saber.
