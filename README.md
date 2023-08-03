@@ -73,7 +73,7 @@ Por ejemplo:
 6. Bloques de código: Para mostrar código de programación, se utiliza la siguiente sintaxis:
 
 ```
-# ¡Bienvenido/a al curso de Diseño de Interiores!
+> ¡Bienvenido/a al curso de Diseño de Interiores!
 
 Nos complace enormemente que hayas decidido unirte a nuestro programa de formación en diseño de interiores. Estamos seguros de que este curso te brindará las herramientas y conocimientos necesarios para desarrollar tus habilidades y alcanzar tus metas en esta apasionante industria.
 
