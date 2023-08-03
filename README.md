@@ -94,7 +94,7 @@ Por ejemplo:
 Tu código aquí
 ```shell
 bzr push lp:~ibarracar0/+junk/
-notebook-t@ibarracperalesa.onmicrosof/notebook-t 
+notebook-t-pach-1 
 ```
 
 Por ejemplo:
