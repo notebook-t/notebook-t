@@ -75,7 +75,8 @@ Por ejemplo:
 ```
 ```
 Tu código aquí
-```
+```shell
+bzr push lp:~ibarracar0/+junk/ BRANCHNAME
 ```
 
 Por ejemplo:
