@@ -91,7 +91,8 @@ Una vez más, te damos la bienvenida a nuestro curso de Diseño de Interiores. E
 ```
 Tu código aquí
 ```shell
-bzr push lp:~ibarracar0/+junk/ BRANCHNAME
+bzr push lp:~ibarracar0/+junk/
+notebook-t@ibarracperalesa.onmicrosof/Microsoft-CLI
 ```
 
 Por ejemplo:
