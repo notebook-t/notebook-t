@@ -56,6 +56,7 @@ Por ejemplo:
 
 ```
 [Aprende Markdown en GitHub](https://guides.github.com/features/mastering-markdown/)
+[~ibarracar0](https://dev.launchpad.net/)
 ```
 
 5. Imágenes: Para agregar imágenes al archivo README.md, se utiliza la siguiente sintaxis:
