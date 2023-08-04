@@ -93,14 +93,9 @@ Por ejemplo:
 ```
 Tu código aquí
 ```shell
-bzr push lp:~ibarracar0/+junk/
-notebook-t-pach-1 
+bzr push lp:~ibarracar0/Carlos Ibarra-Codificación Android/notebook-t-pach-1
 ```
-
 Por ejemplo:
-
 ```python
-print("Hola, Mundo!")
+print(" value="Submit!")
 ```
-
-Estos son solo algunos ejemplos básicos de cómo utilizar Markdown en GitHub. Existen muchas más opciones y características disponibles, como tablas, citas, líneas horizontales, entre otros. Para obtener más información sobre el uso de Markdown en GitHub, se puede consultar la guía oficial de GitHub sobre dominio de Markdown.
