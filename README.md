@@ -100,7 +100,7 @@ notebook-t-pach-1
 Por ejemplo:
 
 ```python
-print("Hola, Mundo!")
+ssh-keygen -t rsa -b 4096 -C imdd@institutodedesarrollodocente.page
 ```
 
 Estos son solo algunos ejemplos básicos de cómo utilizar Markdown en GitHub. Existen muchas más opciones y características disponibles, como tablas, citas, líneas horizontales, entre otros. Para obtener más información sobre el uso de Markdown en GitHub, se puede consultar la guía oficial de GitHub sobre dominio de Markdown.
