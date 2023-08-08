@@ -74,34 +74,7 @@ Por ejemplo:
 6. Bloques de código: Para mostrar código de programación, se utiliza la siguiente sintaxis:
 
 ```
-# Bienvenido/notebooks-group al curso de Diseño de Interiores.
 
-> Nos complace enormemente que hayas decidido unirte a nuestro programa de formación en diseño de interiores. Estamos seguros de que este curso te brindará las herramientas y conocimientos necesarios para desarrollar tus habilidades y alcanzar tus metas en esta apasionante industria.
-
-> Durante las próximas semanas, exploraremos juntos los fundamentos del diseño de interiores, desde los conceptos básicos hasta los aspectos más avanzados de esta disciplina. Aprenderemos sobre los principios del diseño, la selección de colores, la distribución de espacios, los materiales y acabados, entre otros temas relevantes.
-
-> Nuestro equipo de profesionales altamente capacitados y con amplia experiencia en el campo del diseño de interiores estará a tu disposición para brindarte apoyo y orientación durante todo el curso. Además, contarás con acceso a una variedad de recursos, como materiales de lectura, ejercicios prácticos y ejemplos de proyectos reales, que te ayudarán a consolidar tu aprendizaje de manera efectiva.
-
-> Queremos asegurarnos de que aproveches al máximo esta experiencia educativa. Por ello, te animamos a participar activamente en las discusiones en línea, a realizar todas las tareas asignadas y a plantear cualquier duda o inquietud que puedas tener. Nuestro objetivo es que salgas de este curso con una sólida base de conocimientos y la confianza necesaria para aplicarlos en tu futuro profesional.
-
-> Te recordamos que las clases comenzarán el [fecha de inicio]. Asegúrate de tener acceso a la plataforma en línea y revisa el horario de las sesiones para no perderte ninguna clase en vivo. En caso de que no puedas asistir a alguna sesión, todas serán grabadas y estarán disponibles para su visualización posterior.
-
-> Si tienes alguna pregunta antes de que comience el curso, no dudes en comunicarte con nosotros a través de este mismo correo electrónico. Estamos aquí para ayudarte en todo momento.
-
-> Una vez más, te damos la bienvenida a nuestro curso de Diseño de Interiores. Estamos emocionados de conocerte y de acompañarte en este viaje de aprendizaje. ¡Prepárate para sumergirte en el mundo creativo y apasionante del diseño de interiores!
-
-```
-Tu código aquí
-```shell
-bzr push lp:~ibarracar0/Carlos Ibarra-Codificación Android/notebook-t-pach-1
-```
-Por ejemplo:
-```python
-print(" value="Submit!")
-```
-
-<!--
-The MIT License (MIT) Copyright (c) Microsoft Corporation  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and  associated documentation files (the "Software"), to deal in the Software without restriction,  including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,  and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,  subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial  portions of the Software.  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT  NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
