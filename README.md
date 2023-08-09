@@ -20,10 +20,84 @@ Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e in
 
 ![header_transparent_bg@3x](https://github.com/notebook-t/notebook-t/assets/140947135/e477731a-ca46-4b16-963d-a175c4e9addd)
 ```
-# Título principal
-## Título secundario
-### Título terciario
+# Bundle
+
+Esta guía asume que tiene [Ruby](https://www.ruby-lang.org/en/downloads/) instalado. Si no tiene instalado Ruby, hágalo primero y luego vuelva a consultar aquí.
+
+Cualquier distribución moderna de Ruby viene con Bundler preinstalado de forma predeterminada.
+
+¡Empezar con Bundler es fácil! Especifique sus dependencias en un Gemfile en la raíz de su proyecto:
+
 ```
+
+```
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.2.4'
+gem 'rspec'
+```
+Instale todas las gemas requeridas de sus fuentes especificadas:
+
+```
+$ bundle install
+$ git add Gemfile Gemfile.lock
+```
+
+El segundo comando agrega Gemfile y Gemfile.lock a su repositorio. Esto garantiza que otros desarrolladores de su aplicación, así como su entorno de implementación, usarán el mismo código de terceros que está usando ahora.
+
+Dentro de su aplicación, cargue el entorno incluido:
+
+```
+require 'bundler/setup'
+
+# require your gems as usual
+require 'nokogiri'
+```
+
+Ejecute un ejecutable que viene con una gema en su paquete:
+
+```
+$ bundle exec rspec spec/models
+```
+
+En algunos casos, la ejecución de ejecutables sin `bundle exec` puede funcionar, si el ejecutable está instalado en su sistema y no genera ninguna gema que entre en conflicto con su paquete.
+
+Sin embargo, esto no es fiable y es la fuente de un dolor considerable. Incluso si parece que funciona, es posible que no funcione en el futuro o en otra máquina.
+
+Finalmente, si desea una forma de obtener un acceso directo a las gemas en su paquete:
+```
+$ bundle install --binstubs
+$ bin/rspec spec/models
+```
+Los ejecutables instalados bin están dentro del alcance del paquete y siempre funcionarán.
+
+## Crear una rubygem con Bundler
+
+Bundler también es una manera fácil de crear nuevas gemas. Al igual que puede crear un proyecto de Rails estándar con rails new, puede crear un proyecto de gema estándar con bundle gem.
+
+Cree una nueva gema con un archivo README, .gemspec, Rakefile, estructura de directorios y toda la plantilla básica que necesita para describir, probar y publicar una gema:
+
+```
+$ bundle gem my_gem
+Creating gem 'my_gem'...
+      create  my_gem/Gemfile
+      create  my_gem/.gitignore
+      create  my_gem/lib/my_gem.rb
+      create  my_gem/lib/my_gem/version.rb
+      create  my_gem/my_gem.gemspec
+      create  my_gem/Rakefile
+      create  my_gem/README.md
+      create  my_gem/bin/console
+      create  my_gem/bin/setup
+      create  my_gem/CODE_OF_CONDUCT.md
+      create  my_gem/LICENSE.txt
+      create  my_gem/.travis.yml
+      create  my_gem/test/test_helper.rb
+      create  my_gem/test/my_gem_test.rb
+Initializing git repo in ./my_gem
+```
+### Usar paquete con
+| [RIELES](https://bundler.io/guides/rails.html) | [SINATRA](https://bundler.io/guides/sinatra.html) | [RUBYGEMS](https://bundler.io/guides/rubygems.html) | [RUBYMOTION](https://bundler.io/guides/rubymotion.html) |
 
 2. Estilos de texto: Se pueden aplicar estilos a texto como cursiva, negrita o tachado utilizando caracteres especiales. Por ejemplo:
 
