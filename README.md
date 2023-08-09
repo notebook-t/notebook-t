@@ -18,6 +18,7 @@ Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e in
 
 1. Encabezados: Los encabezados se utilizan para estructurar el contenido y se definen agregando uno o varios símbolos de numeral (#) antes del texto. Por ejemplo:
 
+
 ![header_transparent_bg@3x](https://github.com/notebook-t/notebook-t/assets/140947135/e477731a-ca46-4b16-963d-a175c4e9addd)
 ```
 
