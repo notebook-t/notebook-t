@@ -20,6 +20,7 @@ Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e in
 
 ![header_transparent_bg@3x](https://github.com/notebook-t/notebook-t/assets/140947135/e477731a-ca46-4b16-963d-a175c4e9addd)
 ```
+
 # Bundle
 
 Esta guía asume que tiene [Ruby](https://www.ruby-lang.org/en/downloads/) instalado. Si no tiene instalado Ruby, hágalo primero y luego vuelva a consultar aquí.
