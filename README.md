@@ -1,7 +1,21 @@
-# [indexado](https://org-york.my.canva.site/ibarracperales)
+# [Prope3](https://org-york.my.canva.site/ibarracperales)
 
 &#x200B;
 
+Agregar una tabla y etiquetas para funcionar con el PROYECT.
+
+| Prepa en Línea-SEP | Enlaces |
+|--------------------|---------|
+| [Main_page](https://prepaenlinea.sep.gob.mx/mi-comunidad-de-aprendizaje/mi-comunidad/) | https://prepaenlinea.sep.gob.mx/ |
+| [Mi comunidad de aprendizaje](https://prepaenlinea.sep.gob.mx/?page_id=1574) | https://prepaenlinea.sep.gob.mx/mi-comunidad-de-aprendizaje/ |
+| [Identificate/entrar a mi comunidad](https://prope3.prepaenlinea.sep.gob.mx/login/index.php) | https://prepaenlinea.sep.gob.mx/mi-comunidad-de-aprendizaje/identificate-entrar-a-mi-comunidad/#user_id=231414806 | 
+| [ID 231414806](https://prope3.prepaenlinea.sep.gob.mx/course/view.php?id=47)  | https://prope3.prepaenlinea.sep.gob.mx/my/ | https://prope3.prepaenlinea.sep.gob.mx/course/view.php?id=47
+| [M0_S1_Guia_de_la_semana_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330742/M0_S1_Guia_de_la_semana_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2835 | 
+| [MO_S1_Conociendo los espacios_PDF_G41_270422.pdf](https://github.com/notebook-t/Prope3/files/12330745/MO_S1_Conociendo.los.espacios_PDF_G41_270422.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2837 | 
+| [G_Guia_Word_M1_S1_INT_01.pdf](https://github.com/notebook-t/Prope3/files/12330744/G_Guia_Word_M1_S1_INT_01.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2843 | 
+| [M0_S1_Tipos de formato_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330743/M0_S1_Tipos.de.formato_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2844 | 
+| [M0_S1_Capturas de pantalla_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330741/M0_S1_Capturas.de.pantalla_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2845 | 
+| [M0_S1_Foros_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330740/M0_S1_Foros_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/forum/view.php?id=2846 | 
 ![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
 El archivo `readme.md` es generalmente utilizado en los proyectos de software para proporcionar información relevante sobre el proyecto. 
 Contiene información sobre cómo instalar, configurar y utilizar el software, así como cualquier otro detalle importante que los usuarios o desarrolladores deben conocer. 
