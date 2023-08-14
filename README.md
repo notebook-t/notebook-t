@@ -16,6 +16,7 @@ Agregar una tabla y etiquetas para funcionar con el PROYECT.
 | [M0_S1_Tipos de formato_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330743/M0_S1_Tipos.de.formato_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2844 | 
 | [M0_S1_Capturas de pantalla_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330741/M0_S1_Capturas.de.pantalla_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/resource/view.php?id=2845 | 
 | [M0_S1_Foros_PDF.pdf](https://github.com/notebook-t/Prope3/files/12330740/M0_S1_Foros_PDF.pdf) | https://prope3.prepaenlinea.sep.gob.mx/mod/forum/view.php?id=2846 | 
+
 ![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
 El archivo `readme.md` es generalmente utilizado en los proyectos de software para proporcionar información relevante sobre el proyecto. 
 Contiene información sobre cómo instalar, configurar y utilizar el software, así como cualquier otro detalle importante que los usuarios o desarrolladores deben conocer. 
