@@ -22,10 +22,7 @@ Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e in
 
 1. Encabezados: Los encabezados se utilizan para estructurar el contenido y se definen agregando uno o varios símbolos de numeral (#) antes del texto. Por ejemplo:
 
-
-![header_transparent_bg@3x](https://github.com/notebook-t/notebook-t/assets/140947135/e477731a-ca46-4b16-963d-a175c4e9addd)
 ```
-
 # Bundle
 
 Esta guía asume que tiene [Ruby](https://www.ruby-lang.org/en/downloads/) instalado. Si no tiene instalado Ruby, hágalo primero y luego vuelva a consultar aquí.
@@ -154,7 +151,6 @@ Por ejemplo:
 
 6. Bloques de código: Para mostrar código de programación, se utiliza la siguiente sintaxis:
 
-![feedback](https://github.com/notebook-t/notebook-t/assets/140947135/d3f5c424-a56d-415d-93ff-a86c1da63089)
 
 
 
