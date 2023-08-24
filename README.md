@@ -471,5 +471,3 @@ Por ejemplo:
 ```
 
 6. Bloques de código: Para mostrar código de programación, se utiliza la siguiente sintaxis:
-
-     
