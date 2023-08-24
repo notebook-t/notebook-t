@@ -2,6 +2,7 @@
 
 {"SPDXID":"SPDXRef-DOCUMENT","spdxVersion":"SPDX-2.3","creationInfo":{"created":"2023-08-19T07:40:05Z","creators":["Tool: GitHub.com-Dependency-Graph"]},"pom.xml":"com.github.notebook-t/bundle-install","dataLicense":"CC0-1.0","documentDescribes":["SPDXRef-com.github.notebook-t-bundle-install"],"documentNamespace":"https://github.com/notebook-t/bundle-install/dependency_graph/sbom-7b51c73fd7a41f44","packages":[{"SPDXID":"SPDXRef-com.github.notebook-t-bundle-install","name":"com.github.notebook-t/bundle-install","versionInfo":"","downloadLocation":"git+https://github.com/notebook-t/bundle-install","licenseDeclared":"Apache-2.0","filesAnalyzed":false,"supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:github/notebook-t/bundle-install"}]}],"relationships":[]}
 
+## Características del documento 
 El fragmento de información es un documento SPDX (Software Package Data Exchange) relacionado con un paquete de software llamado "com.github.notebook-t/bundle-install". 
 
 1. **SPDXID**: Este es un identificador único para este documento SPDX. Ayuda a rastrear y referenciar específicamente este documento en un contexto más amplio.
@@ -287,6 +288,8 @@ Recuerda que la elección de herramientas dependerá de las necesidades específ
      ```bash
      npm install axios
      ```
+   
+     ```Javascript
      const axios = require('axios');
      
      // Utilizar axios para realizar una solicitud HTTP
