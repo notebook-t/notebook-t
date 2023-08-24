@@ -315,7 +315,7 @@ Con estos pasos, deberías poder instalar paquetes JavaScript en tu proyecto uti
 5. **Usa el Paquete en tu Proyecto**:
    - Una vez que el paquete se ha instalado, puedes importarlo o requerirlo en tu código JavaScript. Por ejemplo:
      ```javascript
-     // Importar axios
+     // [Importar axios](https://github.com/GoogleCloudPlatform/cloud-code-vscode/files/12344440/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf)
 <!--
 # [My site](https://org-york.my.canva.site/ibarracperales)
 
