@@ -321,7 +321,7 @@ Con estos pasos, deberías poder instalar paquetes JavaScript en tu proyecto uti
      ```javascript
      // Importar axios
 
-# [My site](https://org-york.my.canva.site/ibarracperales)
+__[My site](https://org-york.my.canva.site/ibarracperales)___
 
 &#x200B;
 
@@ -332,13 +332,13 @@ Contiene información sobre cómo instalar, configurar y utilizar el software, a
 Además, el archivo `readme.md` puede incluir información sobre el propósito del proyecto, los requisitos del sistema, las dependencias, los pasos de instalación, la estructura de archivos y directorios, y cualquier otra información relevante que los desarrolladores o usuarios necesiten saber.
 Para conocer más a profundidad acerca de este tipo archivo empecemos por el principio
 
-# Markdown 
+__Markdown__ 
 Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e interpretar por humanos, que permite escribir HTML sin la necesidad de usar etiquetas, lo que redunda en velocidad de escritura y facilidad de mantenimiento del contenido. Existen multitud de liberías, para cualquier lenguaje, que permiten convertir el código markdown en HTML y viceversa, por lo que usarlo en cualquier tipo de aplicación es también muy sencillo y directo.
 - [Para qué se usa Markdown](https://desarrolloweb.com/home/markdown#track263)
 - [Archivos Markdown](https://desarrolloweb.com/home/markdown#track198)
 - [Sintaxis](https://desarrolloweb.com/home/markdown#track199)
 
-## Markdown en GitHub para documentar repositorios en el README.md
+__Markdown en GitHub para documentar repositorios en el README.md__
 - [Librería para reconocer Markdown en JavaScrip](https://desarrolloweb.com/home/markdown#track261)
 - [notebook-t](https://desarrolloweb.com/home/markdown#track242)
   
@@ -347,7 +347,7 @@ Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e in
 1. Encabezados: Los encabezados se utilizan para estructurar el contenido y se definen agregando uno o varios símbolos de numeral (#) antes del texto. Por ejemplo:
 
 ```
-# Bundle
+__Bundle__
 
 Esta guía asume que tiene [Ruby](https://www.ruby-lang.org/en/downloads/) instalado. Si no tiene instalado Ruby, hágalo primero y luego vuelva a consultar aquí.
 
@@ -398,7 +398,7 @@ $ bin/rspec spec/models
 ```
 Los ejecutables instalados bin están dentro del alcance del paquete y siempre funcionarán.
 
-## Crear una rubygem con Bundler
+__Crear una rubygem con Bundler__
 
 Bundler también es una manera fácil de crear nuevas gemas. Al igual que puede crear un proyecto de Rails estándar con rails new, puede crear un proyecto de gema estándar con bundle gem.
 
@@ -423,7 +423,7 @@ Creating gem 'my_gem'...
       create  my_gem/test/my_gem_test.rb
 Initializing git repo in ./my_gem
 ```
-### Usar paquete con
+__Usar paquete con__
 | [RIELES](https://bundler.io/guides/rails.html) | [SINATRA](https://bundler.io/guides/sinatra.html) | [RUBYGEMS](https://bundler.io/guides/rubygems.html) | [RUBYMOTION](https://bundler.io/guides/rubymotion.html) |
 
 2. Estilos de texto: Se pueden aplicar estilos a texto como cursiva, negrita o tachado utilizando caracteres especiales. Por ejemplo:
