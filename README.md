@@ -1,7 +1,3 @@
-# SPDX (Software Package Data Exchange)
-
-{"SPDXID":"SPDXRef-DOCUMENT","spdxVersion":"SPDX-2.3","creationInfo":{"created":"2023-08-19T07:40:05Z","creators":["Tool: GitHub.com-Dependency-Graph"]},"pom.xml":"com.github.notebook-t/bundle-install","dataLicense":"CC0-1.0","documentDescribes":["SPDXRef-com.github.notebook-t-bundle-install"],"documentNamespace":"https://github.com/notebook-t/bundle-install/dependency_graph/sbom-7b51c73fd7a41f44","packages":[{"SPDXID":"SPDXRef-com.github.notebook-t-bundle-install","name":"com.github.notebook-t/bundle-install","versionInfo":"","downloadLocation":"git+https://github.com/notebook-t/bundle-install","licenseDeclared":"Apache-2.0","filesAnalyzed":false,"supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenceLocator":"pkg:github/notebook-t/bundle-install"}]}],"relationships":[]}
-
 ## Características del documento 
 El fragmento de información es un documento SPDX (Software Package Data Exchange) relacionado con un paquete de software llamado "com.github.notebook-t/bundle-install". 
 
@@ -320,8 +316,8 @@ Con estos pasos, deberías poder instalar paquetes JavaScript en tu proyecto uti
    - Una vez que el paquete se ha instalado, puedes importarlo o requerirlo en tu código JavaScript. Por ejemplo:
      ```javascript
      // Importar axios
-
-__[My site](https://org-york.my.canva.site/ibarracperales)___
+<!--
+# [My site](https://org-york.my.canva.site/ibarracperales)
 
 &#x200B;
 
