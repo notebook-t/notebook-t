@@ -1,474 +1,264 @@
-## Características del documento 
-El fragmento de información es un documento SPDX (Software Package Data Exchange) relacionado con un paquete de software llamado "com.github.notebook-t/bundle-install". 
+### Hi there 👋
 
-1. **SPDXID**: Este es un identificador único para este documento SPDX. Ayuda a rastrear y referenciar específicamente este documento en un contexto más amplio.
-
-2. **spdxVersion**: Indica la versión de SPDX utilizada en este documento. En este caso, se utiliza la versión 2.3 de SPDX.
-
-3. **creationInfo**: Contiene información sobre cuándo se creó el documento y quién lo creó. En este caso, fue creado el 19 de agosto de 2023 por una herramienta llamada "GitHub.com-Dependency-Graph".
-
-4. **pom.xml**: Hace referencia a un archivo llamado "pom.xml" que parece estar relacionado con este paquete de software. "pom.xml" es comúnmente utilizado en proyectos Java como un archivo de configuración Maven.
-
-5. **dataLicense**: Indica la licencia de los datos en este documento. En este caso, se utiliza la licencia "CC0-1.0", que significa que los datos están en el dominio público y pueden ser utilizados sin restricciones.
-
-6. **documentDescribes**: Esta lista indica lo que describe este documento. En este caso, describe "SPDXRef-com.github.notebook-t-bundle-install", que probablemente sea el paquete de software en cuestión.
-
-7. **documentNamespace**: Es la URL que proporciona un espacio de nombres único para este documento SPDX. Puede utilizarse para acceder al documento en línea o para rastrear su origen.
-
-8. **packages**: Aquí se proporciona información sobre el paquete de software "com.github.notebook-t/bundle-install". Esto incluye el nombre del paquete, la ubicación de descarga, la licencia declarada y más detalles relacionados con el paquete.
-
-   - **SPDXID**: Un identificador único para el paquete en el contexto SPDX.
-   - **name**: El nombre completo del paquete de software.
-   - **downloadLocation**: La ubicación desde la cual se puede descargar el paquete, en este caso, es un enlace git en GitHub.
-   - **licenseDeclared**: La licencia declarada para este paquete, que es "Apache-2.0" en este caso.
-   - **filesAnalyzed**: Indica si se han analizado los archivos en este paquete (en este caso, se establece en "false").
-   - **supplier**: Información sobre el proveedor del paquete.
-
-9. **externalRefs**: Proporciona referencias externas relacionadas con el paquete. En este caso, se utiliza una referencia tipo "purl" para identificar el paquete en GitHub.
-
-Este documento SPDX es una forma estructurada de describir un paquete de software, sus metadatos y su licencia. Puede ser útil para gestionar y rastrear paquetes de software en un proyecto de desarrollo, especialmente cuando se utilizan múltiples dependencias de código abierto. 
-
-> A continuación, te proporciono un proceso de alto nivel:
-
-1. **Definición de Objetivos y Alcance**:
-   - Identifica claramente los objetivos de tu proyecto y lo que deseas lograr.
-   - Define el alcance del proyecto, lo que incluye las funcionalidades y características que planeas implementar.
-
-2. **Planificación**:
-   - Crea un plan de proyecto que incluya tareas, plazos, asignación de recursos y dependencias.
-   - Selecciona las metodologías de desarrollo que mejor se adapten a tu proyecto, como Agile, Scrum, o enfoques más tradicionales como el modelo en cascada.
-
-3. **Configuración del Entorno de Desarrollo**:
-   - Asegúrate de tener las herramientas necesarias para desarrollar en los lenguajes que mencionaste (Markdown, JavaScript, Linux, Python, PowerShell).
-   - Configura tu entorno de desarrollo integrado (IDE) con las extensiones y configuraciones adecuadas.
-   - Considera el uso de entornos virtuales para Python y Node.js para gestionar las dependencias de manera aislada.
-
-4. **Gestión de Código Fuente**:
-   - Utiliza repositorios de control de versiones como Git en GitHub, GitLab u otras plataformas.
-   - Organiza tu código en repositorios y ramas para mantener un control efectivo de las versiones.
-
-5. **Desarrollo**:
-   - Escribe y prueba el código de acuerdo con los requisitos y el diseño definidos.
-   - Realiza pruebas unitarias y pruebas de integración para garantizar la calidad del código.
-   - Utiliza prácticas de desarrollo colaborativo si trabajas en un equipo, como revisión de código.
-
-6. **Automatización y Construcción**:
-   - Configura sistemas de construcción (build systems) para compilar y empaquetar tu aplicación.
-   - Utiliza herramientas de automatización como Jenkins, Travis CI o GitHub Actions para automatizar pruebas y despliegues.
-
-7. **Pruebas**:
-   - Realiza pruebas funcionales, de rendimiento y de seguridad según sea necesario.
-   - Asegúrate de que tu aplicación sea robusta y libre de errores.
-
-8. **Despliegue**:
-   - Despliega tu aplicación en un entorno de producción, ya sea en servidores locales o en la nube.
-   - Configura y gestiona servidores web, bases de datos y otros servicios necesarios.
-
-9. **Monitoreo y Mantenimiento**:
-   - Establece sistemas de monitoreo para supervisar el rendimiento y la disponibilidad de tu aplicación en producción.
-   - Aplica actualizaciones y correcciones de seguridad según sea necesario.
-
-10. **Documentación**:
-    - Documenta tu código, APIs y configuración para que otros miembros del equipo y usuarios puedan entender y utilizar tu proyecto.
-
-11. **Gestión de Proyecto**:
-    - Realiza un seguimiento constante del progreso del proyecto y ajusta el plan según sea necesario.
-    - Comunica regularmente con el equipo y los stakeholders para mantenerlos informados sobre el estado del proyecto.
-
-12. **Entrega y Soporte**:
-    - Entrega la aplicación a los usuarios finales.
-    - Proporciona soporte y responde a problemas y consultas de los usuarios.
-
-> Los comandos de GNU/Linux son fundamentales para trabajar en un entorno.
-
-1. **`ls` - Listar Archivos y Directorios**:
-   - Este comando se utiliza para listar los archivos y directorios en el directorio actual.
-   - Ejemplo: `ls -l` muestra una lista larga que incluye detalles como permisos, propietario y fecha de modificación.
-
-2. **`pwd` - Directorio Actual**:
-   - Muestra la ruta completa del directorio en el que te encuentras actualmente.
-
-3. **`cd` - Cambiar Directorio**:
-   - Permite cambiar de directorio. Por ejemplo, `cd /carpeta` te llevará al directorio llamado "carpeta".
-
-4. **`mkdir` - Crear Directorio**:
-   - Utilizado para crear un nuevo directorio.
-   - Ejemplo: `mkdir nuevo_directorio` creará un directorio llamado "nuevo_directorio".
-
-5. **`rm` - Eliminar Archivos o Directorios**:
-   - Elimina archivos o directorios. Ten cuidado, ya que esto es irreversible.
-   - Ejemplo: `rm archivo.txt` eliminará un archivo llamado "archivo.txt".
-
-6. **`cp` - Copiar Archivos y Directorios**:
-   - Copia archivos o directorios de un lugar a otro.
-   - Ejemplo: `cp archivo.txt directorio_destino` copiará "archivo.txt" en "directorio_destino".
-
-7. **`mv` - Mover/Renombrar Archivos y Directorios**:
-   - Mueve archivos o directorios de un lugar a otro o los renombra.
-   - Ejemplo: `mv archivo.txt nuevo_nombre.txt` renombrará "archivo.txt" como "nuevo_nombre.txt".
-8. **`touch` - Crear Archivos Vacíos**:
-   - Crea un nuevo archivo vacío o actualiza la fecha de acceso de un archivo existente.
-   - Ejemplo: `touch nuevo_archivo.txt` creará un archivo llamado "nuevo_archivo.txt".
-
-9. **`cat` - Concatenar y Mostrar Contenido de Archivos**:
-   - Muestra el contenido de un archivo en la terminal.
-   - Ejemplo: `cat archivo.txt` mostrará el contenido de "archivo.txt".
-
-10. **`grep` - Búsqueda de Patrones en Archivos**:
-    - Permite buscar patrones de texto en archivos.
-    - Ejemplo: `grep "patron" archivo.txt` buscará "patron" en "archivo.txt".
-
-11. **`chmod` - Cambiar Permisos de Archivos y Directorios**:
-    - Modifica los permisos de lectura, escritura y ejecución de archivos y directorios.
-    - Ejemplo: `chmod 755 archivo.sh` dará permisos de lectura, escritura y ejecución al propietario y permisos de lectura y ejecución al grupo y a otros usuarios.
-
-12. **`sudo` - Ejecutar como Superusuario**:
-    - Permite ejecutar comandos con privilegios de superusuario (root).
-    - Ejemplo: `sudo apt-get update` actualiza el sistema como superusuario.
-
-Estos son solo algunos de los comandos básicos de GNU/Linux. A medida que te familiarices con ellos, podrás realizar tareas más avanzadas y aprovechar al máximo el sistema operativo Linux en tu proyecto de desarrollo. Si tienes preguntas sobre comandos específicos o necesitas más detalles sobre alguno en particular.
-
-
-Para ejecutar y gestionar tu proyecto de software, especialmente si estás trabajando con GitHub, GitLab, y una variedad de lenguajes de programación como Markdown, JavaScript, Linux, Python, y PowerShell, necesitas una serie de herramientas que faciliten el desarrollo, la colaboración y el despliegue.
-
-1. **Git**: Git es un sistema de control de versiones que te permite rastrear cambios en tu código. Puedes usar GitHub y GitLab como plataformas de alojamiento de repositorios Git.
-
-2. **IDE (Entorno de Desarrollo Integrado)**:
-   - Para JavaScript: Visual Studio Code es una opción popular.
-   - Para Python: PyCharm es una excelente elección.
-   - Para PowerShell: Puedes utilizar Visual Studio Code con la extensión de PowerShell.
-
-3. **Gestión de Proyectos**:
-   - Trello o Jira para organizar y gestionar tareas.
-   - GitHub Projects o GitLab Issues para la gestión de proyectos basada en repositorios.
-
-4. **Entorno de Ejecución**:
-   - Dependiendo de tus necesidades, puedes usar un servidor web como Apache o Nginx para aplicaciones web.
-   - Para ejecutar scripts de Python y PowerShell, simplemente necesitas tener Python y PowerShell instalados en tu sistema.
-
-5. **Bases de Datos**:
-   - Para almacenar datos, considera el uso de bases de datos como PostgreSQL, MySQL o MongoDB, según tus necesidades.
-
-6. **Herramientas de Pruebas**:
-   - Jest para pruebas de JavaScript.
-   - Unittest o Pytest para pruebas de Python.
-   - Pester para pruebas de PowerShell.
-
-7. **Automatización de Despliegue**:
-   - Para desplegar tu aplicación, puedes utilizar herramientas de automatización como Jenkins, Travis CI, GitLab CI/CD o GitHub Actions, según la plataforma que prefieras.
-
-8. **Herramientas de Documentación**:
-   - Markdown es excelente para documentación ligera.
-   - Para documentación más elaborada, considera el uso de herramientas como Sphinx para Python o herramientas de generación de documentación específicas para JavaScript.
-
-9. **Comunicación y Colaboración**:
-   - Slack, Microsoft Teams o Discord para la comunicación en equipo.
-   - Google Workspace o Office 365 para colaboración en documentos y correo electrónico.
-   - Videoconferencias: Zoom o Microsoft Teams.
-
-10. **Gestión de Versiones de Dependencias**:
-    - Utiliza un administrador de paquetes como npm para JavaScript, pip para Python y PowerShellGet para PowerShell para gestionar las dependencias de tu proyecto.
-
-11. **Seguridad**:
-    - Considera herramientas como Nessus, OpenVAS o ClamAV para escanear vulnerabilidades en tu aplicación.
-
-12. **Plataformas de Nube**:
-    - Si planeas alojar tu proyecto en la nube, AWS, Azure o Google Cloud Platform son opciones populares.
-
-Recuerda que la elección de herramientas dependerá de las necesidades específicas de tu proyecto y tus preferencias personales. Es importante también mantener tus herramientas y dependencias actualizadas para garantizar la seguridad y el rendimiento de tu proyecto.
-
-> Instalar un paquete JavaScript utilizando npm (Node Package Manager) es una tarea común en el desarrollo web. Aquí te proporciono instrucciones paso a paso para instalar un paquete JavaScript usando npm:
-
-1. **Instala Node.js**:
-   - Si aún no tienes Node.js instalado en tu sistema, debes hacerlo. Puedes descargar Node.js desde el sitio oficial: [Node.js Descargas](https://nodejs.org/).
-
-2. **Verifica la Instalación**:
-   - Abre una terminal8. **`touch` - Crear Archivos Vacíos**:
-   - Crea un nuevo archivo vacío o actualiza la fecha de acceso de un archivo existente.
-   - Ejemplo: `touch nuevo_archivo.txt` creará un archivo llamado "nuevo_archivo.txt".
-
-9. **`cat` - Concatenar y Mostrar Contenido de Archivos**:
-   - Muestra el contenido de un archivo en la terminal.
-   - Ejemplo: `cat archivo.txt` mostrará el contenido de "archivo.txt".
-
-10. **`grep` - Búsqueda de Patrones en Archivos**:
-    - Permite buscar patrones de texto en archivos.
-    - Ejemplo: `grep "patron" archivo.txt` buscará "patron" en "archivo.txt".
-
-11. **`chmod` - Cambiar Permisos de Archivos y Directorios**:
-    - Modifica los permisos de lectura, escritura y ejecución de archivos y directorios.
-    - Ejemplo: `chmod 755 archivo.sh` dará permisos de lectura, escritura y ejecución al propietario y permisos de lectura y ejecución al grupo y a otros usuarios.
-
-12. **`sudo` - Ejecutar como Superusuario**:
-    - Permite ejecutar comandos con privilegios de superusuario (root).
-    - Ejemplo: `sudo apt-get update` actualiza el sistema como superusuario.
-
-Estos son solo algunos de los comandos básicos de GNU/Linux. A medida que te familiarices con ellos, podrás realizar tareas más avanzadas y aprovechar al máximo el sistema operativo Linux en tu proyecto de desarrollo. Si tienes preguntas sobre comandos específicos o necesitas más detalles sobre alguno en particular.
-
-
-Para ejecutar y gestionar tu proyecto de software, especialmente si estás trabajando con GitHub, GitLab, y una variedad de lenguajes de programación como Markdown, JavaScript, Linux, Python, y PowerShell, necesitas una serie de herramientas que faciliten el desarrollo, la colaboración y el despliegue.
-
-1. **Git**: Git es un sistema de control de versiones que te permite rastrear cambios en tu código. Puedes usar GitHub y GitLab como plataformas de alojamiento de repositorios Git.
-
-2. **IDE (Entorno de Desarrollo Integrado)**:
-   - Para JavaScript: Visual Studio Code es una opción popular.
-   - Para Python: PyCharm es una excelente elección.
-   - Para PowerShell: Puedes utilizar Visual Studio Code con la extensión de PowerShell.
-
-3. **Gestión de Proyectos**:
-   - Trello o Jira para organizar y gestionar tareas.
-   - GitHub Projects o GitLab Issues para la gestión de proyectos basada en repositorios.
-
-4. **Entorno de Ejecución**:
-   - Dependiendo de tus necesidades, puedes usar un servidor web como Apache o Nginx para aplicaciones web.
-   - Para ejecutar scripts de Python y PowerShell, simplemente necesitas tener Python y PowerShell instalados en tu sistema.
-
-5. **Bases de Datos**:
-   - Para almacenar datos, considera el uso de bases de datos como PostgreSQL, MySQL o MongoDB, según tus necesidades.
-
-6. **Herramientas de Pruebas**:
-   - Jest para pruebas de JavaScript.
-   - Unittest o Pytest para pruebas de Python.
-   - Pester para pruebas de PowerShell.
-
-7. **Automatización de Despliegue**:
-   - Para desplegar tu aplicación, puedes utilizar herramientas de automatización como Jenkins, Travis CI, GitLab CI/CD o GitHub Actions, según la plataforma que prefieras.
-
-8. **Herramientas de Documentación**:
-   - Markdown es excelente para documentación ligera.
-   - Para documentación más elaborada, considera el uso de herramientas como Sphinx para Python o herramientas de generación de documentación específicas para JavaScript.
-
-9. **Comunicación y Colaboración**:
-   - Slack, Microsoft Teams o Discord para la comunicación en equipo.
-   - Google Workspace o Office 365 para colaboración en documentos y correo electrónico.
-   - Videoconferencias: Zoom o Microsoft Teams.
-
-10. **Gestión de Versiones de Dependencias**:
-    - Utiliza un administrador de paquetes como npm para JavaScript, pip para Python y PowerShellGet para PowerShell para gestionar las dependencias de tu proyecto.
-
-11. **Seguridad**:
-    - Considera herramientas como Nessus, OpenVAS o ClamAV para escanear vulnerabilidades en tu aplicación.
-
-12. **Plataformas de Nube**:
-    - Si planeas alojar tu proyecto en la nube, AWS, Azure o Google Cloud Platform son opciones populares.
-
-Recuerda que la elección de herramientas dependerá de las necesidades específicas de tu proyecto y tus preferencias personales. Es importante también mantener tus herramientas y dependencias actualizadas para garantizar la seguridad y el rendimiento de tu proyecto.
-
-> Instalar un paquete JavaScript utilizando npm (Node Package Manager) es una tarea común en el desarrollo web. Aquí te proporciono instrucciones paso a paso para instalar un paquete JavaScript usando npm:
-
-1. **Instala Node.js**:
-   - Si aún no tienes Node.js instalado en tu sistema, debes hacerlo. Puedes descargar Node.js desde el sitio oficial: [Node.js Descargas](https://nodejs.org/).
-
-2. **Verifica la Instalación**:
-   - Abre una terminal (en Windows, utiliza el símbolo del sistema o PowerShell) y ejecuta los siguientes comandos para verificar que Node.js y npm estén instalados y funcionando correctamente:
-     ```bash
-     node -v
- (en Windows, utiliza el símbolo del sistema o PowerShell) y ejecuta los siguientes comandos para verificar que Node.js y npm estén instalados y funcionando correctamente:
-     ```bash
-     node -v
-     npm -v
-     ```
-     Estos comandos deberían mostrar las versiones de Node.js y npm instaladas.
-
-3. **Crea un Proyecto o Ve a un Proyecto Existente**:
-   - Dirígete al directorio donde estás trabajando en tu proyecto de JavaScript o crea uno nuevo si aún no tienes uno.
-
-4. **Instala el Paquete**:
-   - Para instalar un paquete JavaScript desde el registro de npm, utiliza el siguiente comando en tu terminal:
-     ```bash
-     npm install nombre_del_paquete
-     ```
-     Reemplaza "nombre_del_paquete" con el nombre del paquete que deseas instalar.
-
-     Por ejemplo, si deseas instalar el paquete "axios" (un cliente HTTP para realizar solicitudes), puedes hacerlo de la siguiente manera:
-     ```bash
-     npm install axios
-     ```
-   
-     ```Javascript
-     const axios = require('axios');
-     
-     // Utilizar axios para realizar una solicitud HTTP
-     axios.get('https://api.example.com/data')
-       .then(response => {
-         console.log(response.data);
-       })
-       .catch(error => {
-         console.error(error);
-       });
-     ```
-
-6. **Actualiza el archivo package.json (Opcional)**:
-   - Si estás trabajando en un proyecto que planeas compartir con otros desarrolladores, es una buena práctica mantener un registro de las dependencias en un archivo `package.json`. Para hacerlo, ejecuta el siguiente comando y sigue las instrucciones:
-     ```bash
-     npm init
-     ```
-
-     Luego, cuando instales paquetes con `npm install`, automáticamente se registrarán en el archivo `package.json` junto con sus versiones.
-
-7. **Guardar Dependencias en Control de Versiones (Opcional)**:
-   - Si estás utilizando un sistema de control de versiones como Git, asegúrate de incluir el archivo `package.json` y el archivo `package-lock.json` (generado automáticamente) en tu repositorio para que otros desarrolladores puedan reproducir exactamente las mismas dependencias.
-
-Con estos pasos, deberías poder instalar paquetes JavaScript en tu proyecto utilizando npm de manera efectiva. Asegúrate de consultar la documentación del paquete específico que estás utilizando para obtener más detalles sobre cómo importarlo y usarlo en tu proyecto.
-
-
-5. **Usa el Paquete en tu Proyecto**:
-   - Una vez que el paquete se ha instalado, puedes importarlo o requerirlo en tu código JavaScript. Por ejemplo:
-     ```javascript
-     // [Importar axios](https://github.com/GoogleCloudPlatform/cloud-code-vscode/files/12344440/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf)
 <!--
-# [My site](https://org-york.my.canva.site/ibarracperales)
+**notebook-t/notebook-t** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-&#x200B;
+Here are some ideas to get you started:
 
-![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
-El archivo `readme.md` es generalmente utilizado en los proyectos de software para proporcionar información relevante sobre el proyecto. 
-Contiene información sobre cómo instalar, configurar y utilizar el software, así como cualquier otro detalle importante que los usuarios o desarrolladores deben conocer. 
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+# FirebaseUI for Android — UI Bindings for Firebase
 
-Además, el archivo `readme.md` puede incluir información sobre el propósito del proyecto, los requisitos del sistema, las dependencias, los pasos de instalación, la estructura de archivos y directorios, y cualquier otra información relevante que los desarrolladores o usuarios necesiten saber.
-Para conocer más a profundidad acerca de este tipo archivo empecemos por el principio
+[![FirebaseOpensource.com](https://img.shields.io/badge/Docs-firebaseopensource.com-orange.svg)](
+https://firebaseopensource.com/projects/firebase/firebaseui-android
+)
+[![Actions Status][gh-actions-badge]][gh-actions]
 
-__Markdown__ 
-Es un lenguaje sencillo, con una sintaxis muy resumida y fácil de recordar e interpretar por humanos, que permite escribir HTML sin la necesidad de usar etiquetas, lo que redunda en velocidad de escritura y facilidad de mantenimiento del contenido. Existen multitud de liberías, para cualquier lenguaje, que permiten convertir el código markdown en HTML y viceversa, por lo que usarlo en cualquier tipo de aplicación es también muy sencillo y directo.
-- [Para qué se usa Markdown](https://desarrolloweb.com/home/markdown#track263)
-- [Archivos Markdown](https://desarrolloweb.com/home/markdown#track198)
-- [Sintaxis](https://desarrolloweb.com/home/markdown#track199)
+FirebaseUI is an open-source library for Android that allows you to
+quickly connect common UI elements to [Firebase](https://firebase.google.com) APIs.
 
-__Markdown en GitHub para documentar repositorios en el README.md__
-- [Librería para reconocer Markdown en JavaScrip](https://desarrolloweb.com/home/markdown#track261)
-- [notebook-t](https://desarrolloweb.com/home/markdown#track242)
-  
-> A continuación, se muestran algunos ejemplos de cómo utilizar Markdown en GitHub para agregar formato al archivo README.md:
+A compatible FirebaseUI client is also available for [iOS](https://github.com/firebase/firebaseui-ios).
 
-1. Encabezados: Los encabezados se utilizan para estructurar el contenido y se definen agregando uno o varios símbolos de numeral (#) antes del texto. Por ejemplo:
+## Table of contents
 
-```
-__Bundle__
+1. [Usage](#usage)
+1. [Installation](#installation)
+   1. [Upgrading](#upgrading)
+1. [Dependencies](#dependencies)
+   1. [Compatibility](#compatibility-with-firebase--google-play-services-libraries)
+   1. [Upgrading dependencies](#upgrading-dependencies)
+1. [Sample App](#sample-app)
+1. [Snapshot Builds](#snapshot-builds)
+1. [Contributing](#contributing)
+   1. [Installing](#installing-locally)
+   1. [License agreements](#contributor-license-agreements)
+   1. [Process](#contribution-process)
 
-Esta guía asume que tiene [Ruby](https://www.ruby-lang.org/en/downloads/) instalado. Si no tiene instalado Ruby, hágalo primero y luego vuelva a consultar aquí.
+## Usage
 
-Cualquier distribución moderna de Ruby viene con Bundler preinstalado de forma predeterminada.
+FirebaseUI has separate modules for using Firebase Realtime Database, Cloud Firestore,
+Firebase Auth, and Cloud Storage. To get started, see the individual instructions for each module:
 
-¡Empezar con Bundler es fácil! Especifique sus dependencias en un Gemfile en la raíz de su proyecto:
+* [FirebaseUI Auth](auth/README.md)
+* [FirebaseUI Firestore](firestore/README.md)
+* [FirebaseUI Database](database/README.md)
+* [FirebaseUI Storage](storage/README.md)
 
-```
+## Installation
 
-```
-source 'https://rubygems.org'
-gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
-gem 'rspec'
-```
-Instale todas las gemas requeridas de sus fuentes especificadas:
+FirebaseUI is published as a collection of libraries separated by the
+Firebase API they target. Each FirebaseUI library has a transitive
+dependency on the appropriate Firebase SDK so there is no need to include
+those separately in your app.
 
-```
-$ bundle install
-$ git add Gemfile Gemfile.lock
-```
+In your `app/build.gradle` file add a dependency on one of the FirebaseUI
+libraries.
 
-El segundo comando agrega Gemfile y Gemfile.lock a su repositorio. Esto garantiza que otros desarrolladores de su aplicación, así como su entorno de implementación, usarán el mismo código de terceros que está usando ahora.
+```groovy
+dependencies {
+    // FirebaseUI for Firebase Realtime Database
+    implementation 'com.firebaseui:firebase-ui-database:8.0.2'
 
-Dentro de su aplicación, cargue el entorno incluido:
+    // FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'
 
-```
-require 'bundler/setup'
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
 
-# require your gems as usual
-require 'nokogiri'
-```
-
-Ejecute un ejecutable que viene con una gema en su paquete:
-
-```
-$ bundle exec rspec spec/models
-```
-
-En algunos casos, la ejecución de ejecutables sin `bundle exec` puede funcionar, si el ejecutable está instalado en su sistema y no genera ninguna gema que entre en conflicto con su paquete.
-
-Sin embargo, esto no es fiable y es la fuente de un dolor considerable. Incluso si parece que funciona, es posible que no funcione en el futuro o en otra máquina.
-
-Finalmente, si desea una forma de obtener un acceso directo a las gemas en su paquete:
-```
-$ bundle install --binstubs
-$ bin/rspec spec/models
-```
-Los ejecutables instalados bin están dentro del alcance del paquete y siempre funcionarán.
-
-__Crear una rubygem con Bundler__
-
-Bundler también es una manera fácil de crear nuevas gemas. Al igual que puede crear un proyecto de Rails estándar con rails new, puede crear un proyecto de gema estándar con bundle gem.
-
-Cree una nueva gema con un archivo README, .gemspec, Rakefile, estructura de directorios y toda la plantilla básica que necesita para describir, probar y publicar una gema:
-
-```
-$ bundle gem my_gem
-Creating gem 'my_gem'...
-      create  my_gem/Gemfile
-      create  my_gem/.gitignore
-      create  my_gem/lib/my_gem.rb
-      create  my_gem/lib/my_gem/version.rb
-      create  my_gem/my_gem.gemspec
-      create  my_gem/Rakefile
-      create  my_gem/README.md
-      create  my_gem/bin/console
-      create  my_gem/bin/setup
-      create  my_gem/CODE_OF_CONDUCT.md
-      create  my_gem/LICENSE.txt
-      create  my_gem/.travis.yml
-      create  my_gem/test/test_helper.rb
-      create  my_gem/test/my_gem_test.rb
-Initializing git repo in ./my_gem
-```
-__Usar paquete con__
-| [RIELES](https://bundler.io/guides/rails.html) | [SINATRA](https://bundler.io/guides/sinatra.html) | [RUBYGEMS](https://bundler.io/guides/rubygems.html) | [RUBYMOTION](https://bundler.io/guides/rubymotion.html) |
-
-2. Estilos de texto: Se pueden aplicar estilos a texto como cursiva, negrita o tachado utilizando caracteres especiales. Por ejemplo:
-
-```
-*Texto en cursiva*
-**Texto en negrita**
-~~Texto tachado~~
+    // FirebaseUI for Cloud Storage
+    implementation 'com.firebaseui:firebase-ui-storage:8.0.2'
+}
 ```
 
-3. Listas: Se pueden crear listas ordenadas utilizando números o listas desordenadas utilizando viñetas. Por ejemplo:
+If you're including the `firebase-ui-auth` dependency, there's a little
+[more setup](auth/README.md#configuration) required.
 
+After the project is synchronized, we're ready to start using Firebase functionality in our app.
+
+### Upgrading
+
+If you are using an old version of FirebaseUI and upgrading, please see the appropriate
+migration guide:
+
+* [Upgrade from 7.2.0 to 8.x.x](./docs/upgrade-to-8.0.md)
+* [Upgrade from 6.4.0 to 7.x.x](./docs/upgrade-to-7.0.md)
+* [Upgrade from 5.1.0 to 6.x.x](./docs/upgrade-to-6.0.md)
+* [Upgrade from 4.3.2 to 5.x.x](./docs/upgrade-to-5.0.md)
+* [Upgrade from 3.3.1 to 4.x.x](./docs/upgrade-to-4.0.md)
+* [Upgrade from 2.3.0 to 3.x.x](./docs/upgrade-to-3.0.md)
+* [Upgrade from 1.2.0 to 2.x.x](./docs/upgrade-to-2.0.md)
+
+## Dependencies
+
+### Compatibility with Firebase / Google Play Services libraries
+
+FirebaseUI libraries have the following transitive dependencies on the Firebase SDK:
 ```
-1. Primer elemento
-2. Segundo elemento
-3. Tercer elemento
+firebase-ui-auth
+|--- com.google.firebase:firebase-auth
+|--- com.google.android.gms:play-services-auth
+
+firebase-ui-database
+|--- com.google.firebase:firebase-database
+
+firebase-ui-firestore
+|--- com.google.firebase:firebase-firestore
+
+firebase-ui-storage
+|--- com.google.firebase:firebase-storage
 ```
 
-```
-- Primer elemento
-- Segundo elemento
-- Tercer elemento
-```
+You can see the specific dependencies associated with each release on the 
+[Releases page](https://github.com/firebase/FirebaseUI-Android/releases).
 
-4. Enlaces: Para agregar enlaces a otros sitios web, se utiliza la siguiente sintaxis:
+### Upgrading dependencies
 
-```
-[Texto del enlace](URL_del_enlace)
-```
+If you would like to use a newer version of one of FirebaseUI's transitive dependencies, such
+as Firebase, Play services, or the Android support libraries, you need to add explicit
+`implementation` declarations in your `build.gradle` for all of FirebaseUI's dependencies at the version
+you want to use. Here are some examples listing all of the critical dependencies:
 
-Por ejemplo:
+#### Auth
 
-```
-[Aprende Markdown en GitHub](https://guides.github.com/features/mastering-markdown/)
-[~ibarracar0](https://dev.launchpad.net/)
-```
+```groovy
+implementation "com.google.firebase:firebase-auth:$X.Y.Z"
+implementation "com.google.android.gms:play-services-auth:$X.Y.Z"
 
-5. Imágenes: Para agregar imágenes al archivo README.md, se utiliza la siguiente sintaxis:
-
-```
-![Texto alternativo](URL_de_la_imagen)
-```
-
-Por ejemplo:
-
-```
-![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
+implementation "androidx.lifecycle:lifecycle-extensions:$X.Y.Z"
+implementation "androidx.browser:browser:$X.Y.Z"
+implementation "androidx.cardview:cardview:$X.Y.Z"
+implementation "androidx.constraintlayout:constraintlayout:$X.Y.Z"
+implementation "androidx.legacy:legacy-support-v4:$X.Y.Z"
+implementation "com.google.android.material:material:$X.Y.Z"
 ```
 
-6. Bloques de código: Para mostrar código de programación, se utiliza la siguiente sintaxis:
+#### Firestore
 
-     
+```groovy
+implementation "com.google.firebase:firebase-firestore:$X.Y.Z"
+
+implementation "androidx.legacy:legacy-support-v4:$X.Y.Z"
+implementation "androidx.recyclerview:recyclerview:$X.Y.Z"
+```
+
+#### Realtime Database
+
+```groovy
+implementation "com.google.firebase:firebase-database:$X.Y.Z"
+
+implementation "androidx.legacy:legacy-support-v4:$X.Y.Z"
+implementation "androidx.recyclerview:recyclerview:$X.Y.Z"
+```
+
+#### Storage
+
+```groovy
+implementation "com.google.firebase:firebase-storage:$X.Y.Z"
+
+implementation "androidx.legacy:legacy-support-v4:$X.Y.Z"
+```
+
+
+## Sample app
+
+There is a sample app in the [`app/`](app) directory that demonstrates most
+of the features of FirebaseUI. Load the project in Android Studio and
+run it on your Android device to see a demonstration.
+
+Before you can run the sample app, you must create a project in
+the Firebase console. Add an Android app to the project, and copy
+the generated google-services.json file into the `app/` directory.
+Also enable [anonymous authentication](https://firebase.google.com/docs/auth/android/anonymous-auth)
+for the Firebase project, since some components of the sample app
+requires it.
+
+If you encounter a version incompatibility error between Android Studio
+and Gradle while trying to run the sample app, try disabling the Instant
+Run feature of Android Studio. Alternatively, update Android Studio and
+Gradle to their latest versions.
+
+A note on importing the project using Android Studio: Using 'Project from 
+Version Control' will not automatically link the project with Gradle 
+(issue [#1349](https://github.com/firebase/FirebaseUI-Android/issues/1349)). 
+When doing so and opening any `build.gradle.kts` file, an error shows up: 
+`Project 'FirebaseUI-Android' isn't linked with Gradle`. To resolve this 
+issue, please `git checkout` the project manually and import with `Import 
+from external model`.
+
+## Snapshot builds
+
+Like to live on the cutting edge?  Want to try the next release of FirebaseUI before anyone else?
+FirebaseUI hosts "snapshot" builds on oss.jfrog.org.
+
+Just add the following to your `build.gradle`:
+
+```groovy
+repositories {
+  maven { url "https://oss.jfrog.org/artifactory/oss-snapshot-local" }
+}
+```
+
+Then you can depend on snapshot versions:
+
+```groovy
+implementation 'com.firebaseui:firebase-ui-auth:$X.Y.Z-SNAPSHOT'
+```
+
+You can see which `SNAPSHOT` builds are avaiable here:
+https://oss.jfrog.org/webapp/#/artifacts/browse/tree/General/oss-snapshot-local/com/firebaseui
+
+Snapshot builds come with absolutely no guarantees and we will close any issues asking to troubleshoot
+a snapshot report unless they identify a bug that should block the release launch. Experiment
+at your own risk!
+
+## Contributing
+
+### Installing locally
+
+You can download FirebaseUI and install it locally by cloning this
+repository and running:
+
+```sh
+./gradlew :library:prepareArtifacts publishToMavenLocal
+```
+
+### Contributor License Agreements
+
+We'd love to accept your sample apps and patches! Before we can take them, we
+have to jump a couple of legal hurdles.
+
+Please fill out either the individual or corporate Contributor License Agreement
+(CLA).
+
+* If you are an individual writing original source code and you're sure you
+  own the intellectual property, then you'll need to sign an
+  [individual CLA](https://developers.google.com/open-source/cla/individual).
+* If you work for a company that wants to allow you to contribute your work,
+  then you'll need to sign a
+  [corporate CLA](https://developers.google.com/open-source/cla/corporate).
+
+Follow either of the two links above to access the appropriate CLA and
+instructions for how to sign and return it. Once we receive it, we'll be able to
+accept your pull requests.
+
+### Contribution process
+
+1. Submit an issue describing your proposed change to the repo in question.
+1. The repo owner will respond to your issue promptly.
+1. If your proposed change is accepted, and you haven't already done so, sign a
+   Contributor License Agreement (see details above).
+1. Fork the desired repo, develop, and then test your code changes **on the latest dev branch**.
+1. Ensure that your code adheres to the existing style of the library to which
+   you are contributing.
+1. Ensure that your code has an appropriate set of unit tests which all pass.
+1. Submit a pull request targeting the latest dev branch.
+
+[gh-actions]: https://github.com/firebase/FirebaseUI-Android/actions
+[gh-actions-badge]: https://github.com/firebase/FirebaseUI-Android/workflows/Android%20CI/badge.svg
