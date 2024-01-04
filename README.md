@@ -1,7 +1,11 @@
 ### Hi there 👋
-
 <!--
 **notebook-t/notebook-t** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+```
+git fetch origin
+git checkout 8-v81-weblogic-express
+```
 
 Here are some ideas to get you started:
 
