@@ -80,6 +80,37 @@ migration guide:
 * [Upgrade from 1.2.0 to 2.x.x](./docs/upgrade-to-2.0.md)
 
 ## Dependencies
+FirebaseUI para Android es una biblioteca de código abierto que proporciona vínculos de interfaz de usuario para las APIs de Firebase. Permite conectar rápidamente elementos comunes de la interfaz de usuario a las APIs de Firebase, como la autenticación, la base de datos en tiempo real, Firestore y el almacenamiento en la nube.
+ 
+Para utilizar FirebaseUI, debes agregar las dependencias correspondientes al archivo  build.gradle  de tu proyecto. Por ejemplo, para usar FirebaseUI para la autenticación de Firebase, puedes agregar la siguiente dependencia:
+ 
+```groovy 
+implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
+```
+ También puedes agregar dependencias para otros módulos de FirebaseUI, como FirebaseUI para Firestore, FirebaseUI para la base de datos en tiempo real y FirebaseUI para el almacenamiento en la nube.
+ 
+Una vez que hayas agregado las dependencias, puedes comenzar a utilizar FirebaseUI siguiendo las instrucciones de uso proporcionadas en la documentación de la biblioteca. Cada módulo tiene sus propias instrucciones y características específicas, por lo que es importante consultar el módulo específico que te interese.
+ 
+FirebaseUI simplifica la integración de las funcionalidades de Firebase en tu aplicación de Android, permitiéndote crear experiencias de usuario intuitivas y responsivas. Proporciona una forma conveniente de manejar la autenticación de usuarios, las operaciones en la base de datos, el almacenamiento de archivos y más.
+ 
+Si deseas contribuir al desarrollo de FirebaseUI, puedes encontrar información sobre cómo instalarlo localmente y pautas para contribuir en la documentación de la biblioteca. Recuerda revisar y firmar el Acuerdo de Licencia del Colaborador requerido antes de enviar tus contribuciones.
+ 
+FirebaseUI para Android está activamente mantenido y respaldado por el equipo de Firebase, lo que te permite aprovechar las potentes funcionalidades de la infraestructura de Firebase y proporcionar una experiencia de usuario elegante y sin problemas en tu aplicación de Android.FirebaseUI para Android es una biblioteca de código abierto que proporciona vínculos de interfaz de usuario para las APIs de Firebase. Permite conectar rápidamente elementos comunes de la interfaz de usuario a las APIs de Firebase, como la autenticación, la base de datos en tiempo real, Firestore y el almacenamiento en la nube.
+ 
+Para utilizar FirebaseUI, debes agregar las dependencias correspondientes al archivo  build.gradle  de tu proyecto. Por ejemplo, para usar FirebaseUI para la autenticación de Firebase, puedes agregar la siguiente dependencia:
+ 
+```groovy
+implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
+```
+ También puedes agregar dependencias para otros módulos de FirebaseUI, como FirebaseUI para Firestore, FirebaseUI para la base de datos en tiempo real y FirebaseUI para el almacenamiento en la nube.
+ 
+Una vez que hayas agregado las dependencias, puedes comenzar a utilizar FirebaseUI siguiendo las instrucciones de uso proporcionadas en la documentación de la biblioteca. Cada módulo tiene sus propias instrucciones y características específicas, por lo que es importante consultar el módulo específico que te interese.
+ 
+FirebaseUI simplifica la integración de las funcionalidades de Firebase en tu aplicación de Android, permitiéndote crear experiencias de usuario intuitivas y responsivas. Proporciona una forma conveniente de manejar la autenticación de usuarios, las operaciones en la base de datos, el almacenamiento de archivos y más.
+ 
+Si deseas contribuir al desarrollo de FirebaseUI, puedes encontrar información sobre cómo instalarlo localmente y pautas para contribuir en la documentación de la biblioteca. Recuerda revisar y firmar el Acuerdo de Licencia del Colaborador requerido antes de enviar tus contribuciones.
+ 
+FirebaseUI para Android está activamente mantenido y respaldado por el equipo de Firebase, lo que te permite aprovechar las potentes funcionalidades de la infraestructura de Firebase y proporcionar una experiencia de usuario elegante y sin problemas en tu aplicación de Android.
 
 ### Compatibility with Firebase / Google Play Services libraries
 
